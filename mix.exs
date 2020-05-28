@@ -27,7 +27,8 @@ defmodule Mjmleex.MixProject do
 
   defp deps do
     [
-      {:elixir_uuid, "~> 1.2"}
+      {:elixir_uuid, "~> 1.2"},
+      {:ex_doc, "~> 0.14", only: :dev, runtime: false}
     ]
   end
 
